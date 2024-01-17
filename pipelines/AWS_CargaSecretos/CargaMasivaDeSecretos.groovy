@@ -4,7 +4,6 @@ pipeline{
     }
     environment{
         //--   AWS
-		//AWS_CREDENTIAL = "JEN-AWS-SM-PRE"
 		AWS_CREDENTIAL = "CREDENCIAL" 
 		SERVICE_CREDS = credentials("$AWS_CREDENTIAL")                  
 		AWS_REGION = "us-east-1"
